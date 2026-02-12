@@ -1,14 +1,46 @@
+# Node.js dependencies
 node_modules/
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-coverage/
-.playwright/
-reports/
+pnpm-debug.log*
+
+# Dependency directories
+/.pnp
+/.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# dotenv files
 .env
-.DS_Store
+
+# Playwright test results and artifacts
+.playwright/
+test-results/
+
+# VSCode
 .vscode/
+
+# IDEs and editors
 .idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage
+coverage/
+
+# Build outputs
 dist/
-build/
+out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
 *.log
