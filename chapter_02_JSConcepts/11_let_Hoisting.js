@@ -32,4 +32,4 @@ if(true){
 
 // Ex1
 console.log(pi);
-const pi = 3.14;
+const pi = 3.14; 
