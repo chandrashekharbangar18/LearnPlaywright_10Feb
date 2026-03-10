@@ -7,9 +7,9 @@ function validateUserInput(userName, password) {
 }
 
 // Example usage:
-let userName = "Admin";
-let password = "1234";
-console.log(validateUserInput(userName, password)); // Output: Login successful
+// let userName = "Admin";
+// let password = "1234";
+// console.log(validateUserInput(userName, password)); // Output: Login successful
 
 userName = "User";
 password = "wrongpassword";
