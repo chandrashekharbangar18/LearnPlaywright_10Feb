@@ -28,3 +28,5 @@ const getResult = (score) => {
 }
 
 console.log(getResult(39));
+
+// arrow 
