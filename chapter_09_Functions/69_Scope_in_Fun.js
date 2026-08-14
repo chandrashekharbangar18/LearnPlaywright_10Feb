@@ -21,3 +21,18 @@ console.log(timeout);  // can't access var timeout because it's a local var to f
 // Nested scope
 
 // Ex1
+function outer ()
+{
+    let x = 10;
+
+    function inner ()
+    {
+        let y = 20;
+        console.log(x);  // inner fun can access outer's var
+    }
+
+    inner();
+    console.log(y); // can't access 
+}
+
+outer();
